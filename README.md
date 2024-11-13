@@ -14,16 +14,16 @@ We used transfer learning techniques on the CyanotoxinZero base model, which all
 # Classifiers
 We compared the FCNN model against six traditional machine learning classifiers: <br>
 
-Random Forest
-XGBoost
-KNN Classifier
-FM Classifier
-Gradient Boosting Classifier
-Gaussian Naive Bayes
-Evaluation Metrics
-The following evaluation criteria were used to compare the classifiers:
+Random Forest<br>
+XGBoost<br>
+KNN Classifier<br>
+FM Classifier<br>
+Gradient Boosting Classifier<br>
+Gaussian Naive Bayes<br>
+Evaluation Metrics<br>
+The following evaluation criteria were used to compare the classifiers:<br>
 
-Macro Precision, Recall, and F1 Score: Calculated without considering class imbalance.
+Macro Precision, Recall, and F1 Score: Calculated without considering class imbalance.<br>
 Weighted Precision, Recall, and F1 Score: Takes class imbalance into account by giving more weight to the larger classes.
 # Results
 Our findings show that the Fully Connected Neural Network (FCNN) outperformed all other machine learning classifiers in all the evaluation metrics, demonstrating superior classification performance. The FCNN provided the best scores in terms of macro and weighted precision, recall, and F1 scores.
